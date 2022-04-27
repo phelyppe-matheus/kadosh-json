@@ -1,9 +1,7 @@
-{
-    "posts": [
-        {
-            "date": "27/04/2022",
-            "title": "Maio",
-            "imageUri": "assets/270420221.jpeg"
-        }
-    ]
-}
+[
+    {
+        "date": "27/04/2022",
+        "title": "Maio",
+        "imageUrlList": "assets/270420221.jpeg"
+    }
+]
