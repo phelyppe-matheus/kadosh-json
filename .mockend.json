@@ -19,7 +19,7 @@
     },
     "Image": {
         "url": {
-            "regexp": "assets/Post [0-9].png"
+            "regexp": "assets/Post [0-9]\\.png"
         },
         "catalogue": {
             "belongsTo": "Catalogue"
