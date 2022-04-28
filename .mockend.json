@@ -17,7 +17,7 @@
             "hasMany": "ImagesUrl"
         }
     },
-    "ImagesUrllist": {
+    "ImagesUrlList": {
         "url": {
             "regexp": "assets/Post [0-9].png"
         },
