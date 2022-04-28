@@ -14,10 +14,10 @@
             ]
         },
         "imageUrlList": {
-            "hasMany": "images"
+            "hasMany": "imagesUrl"
         }
     },
-    "images": {
+    "imagesUrl": {
         "regexp": "assets/Post [0-9].png"
     }
 }
