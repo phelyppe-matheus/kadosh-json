@@ -13,11 +13,11 @@
                 "Dezembro 2022"
             ]
         },
-        "imagesUrlList": {
-            "hasMany": "ImagesUrlList"
+        "images": {
+            "hasMany": "Image"
         }
     },
-    "ImagesUrlList": {
+    "Image": {
         "url": {
             "regexp": "assets/Post [0-9].png"
         },
