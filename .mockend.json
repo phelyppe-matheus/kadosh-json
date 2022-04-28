@@ -1,23 +1,14 @@
 {
-    "catalogue": {
-        "date": {
-            "regexp": "[0-9]{2}-[0-9]{2}-[0-9]{2}"
-        },
-        "title": {
-            "string": [
-                "Maio 2022",
-                "Abril 2022",
-                "Março 2022",
-                "Julho 2022",
-                "Agosto 2022",
-                "Dezembro 2022"
-            ]
-        },
-        "imageUrlList": {
-            "hasMany": "imagesUrl"
-        }
+    "Post": {
+      "title": { "string": {} },
+      "comments": {
+        "hasMany": "Comment"
+      }
     },
-    "imagesUrl": {
-        "regexp": "assets/Post [0-9].png"
+    "Comment": {
+      "body": { "string": {} },
+      "post": {
+        "belongsTo": "Post"
+      }
     }
-}
+  }
