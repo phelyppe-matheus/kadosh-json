@@ -2,6 +2,8 @@
     {
         "date": "2022-04-27",
         "title": "Maio",
-        "imageUrlList": "assets\\Post 1.png"
+        "imageUrlList": [
+            "assets\\Post 1.png"
+        ]
     }
 ]
