@@ -7,4 +7,3 @@ app.get('/', function(req, res) {
 });
 
 app.listen(process.env.PORT || PORT);
-console.log(`Running ${PORT}`);
