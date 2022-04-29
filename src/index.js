@@ -6,5 +6,5 @@ app.get('/', function(res, req) {
     res.send("WORKING");
 });
 
-console.listen(process.env.PORT || PORT);
+app.listen(process.env.PORT || PORT);
 console.log(`Running ${PORT}`);
