@@ -4,7 +4,8 @@
   "description": "The posts for my kadosh page",
   "main": "src/index.js",
   "scripts": {
-    "test": "tests"
+    "test": "tests",
+    "start": "node src/index.js"
   },
   "repository": {
     "type": "git",
